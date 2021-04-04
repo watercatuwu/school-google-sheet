@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Google Sheet-崙中801</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta name="description" content="好用的Googlesheet成績統計模板，由大崙國中801製作。">
+    <meta name="keywords" content="大崙國中">
+    <meta name="keywords" content="大崙801">
+    <meta name="keywords" content="表格">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+    
+    <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
+    <link rel="shortcut icon" href="https://ssl.gstatic.com/docs/spreadsheets/favicon3.ico"/>
+    <meta name="google-site-verification" content="7YvUUyq8TT0k-LWEmK_Z-wlYTuTdDz_zXRLLhCMernY" />
+  </head>
+  <body>
+    <div class="jumbotron">
+    <img src="/icon/googlesheet.png" width="50px" height="68px">
+    <h1>Google sheet 成績統計模板</h1>
+    </div>
+    <ul class="nav nav-tabs sticky-top" style="margin:0px 0px 50px 0px">
+      <li class="nav-item"><a class="nav-link active" href="#Theme" data-toggle="tab">主題</a></li>
+      <li class="nav-item"><a class="nav-link" href="#Introduction" data-toggle="tab">特色</a></li>
+      <li class="nav-item"><a class="nav-link" href="#Teach" data-toggle="tab">教學</a></li>
+      <li class="nav-item"><a class="nav-link" href="#Preview" data-toggle="tab">預覽
+      </a></li>
+      <li class="nav-item"><a class="nav-link" href="#About" data-toggle="tab">關於
+      </a></li>
+    </ul>
+    
+    <div class="tab-content">
+      <div class="tab-pane fade show active" id="Theme">
+      <h2 style="color:gray">Choose Theme</h2>
+      <hr width=80px>
+        <div class="col text-center">
+          <a href="/file/段考用表格-blue.xlsx" class="btn btn-primary btn-outline-default btn-lg a" download="段考用表格-blue.xlsx">藍色</a>
+          <a href="/file/段考用表格-red.xlsx" class="btn btn-danger btn-outline-default btn-lg a" download="段考用表格-red.xlsx">紅色</a>
+          <a href="/file/段考用表格-default.xlsx" class="btn btn-outline-dark btn-lg a" download="段考用表格-default.xlsx">預設</a>
+          <p>&nbsp;</p>
+          <p style="color:gray">下載格式:.xlsx</p>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="Introduction">
+        <h2 style="color:gray">特色</h2>
+        <hr width=80px>
+          <div class="col text-center">
+          <figure>
+          <img src="/icon/圖表.png" text="圖表">
+          <figcaption><p>圖表</p></figcaption>
+          </figure>
+          <figure> 
+          <img src="/icon/計算機.png">
+          <figcaption><p>自動計算</p></figcaption>
+          </figure>
+          <figure> 
+          <img src="/icon/cloud.png">
+          <figcaption><p>雲端儲存</p></figcaption>
+          </figure>
+          <figure>
+          <img src="/icon/讚.png">
+          <figcaption><p>非常方便</p></figcaption>
+          </figure>
+          <figure>
+          <img src="/icon/update.png">
+          <figcaption><p>持續更新</p></figcaption>
+          </figure>
+          
+          <p style="color:gray">備註:也可用於Excel,但部分功能會有不相容的問題</p>
+          </div>
+        </div>
+
+      <div class="tab-pane fade" id="Teach">
+          <h2 style="color:gray">教學</h2>
+          <hr width=80px>
+         <div class="col text-center">
+          <a href="doc.html" class="btn btn-outline-dark btn-lg disabled">尚未推出</a>
+         </div>
+      </div>
+       
+            <div class="tab-pane fade" id="About">
+          <h2 style="color:gray">關於 About</h2>
+          <hr width=80px>
+         <div class="col text-center">
+         <h3>模板製作-801開發小組</h3>
+         <h3>網頁設計-801開發小組</h3>
+         <h3>Google sheet/icon-Google Font</h3>
+         <p>&nbsp;</p>
+         <img src="/801.png" width="500px" height="500px">
+      </div>
+      </div>
+
+
+      <div class="tab-pane fade" id="Preview">
+          <h2 style="color:gray">預覽</h2>
+          <hr width=80px>
+         <div class="col text-center">
+          <div class="col text-center">
+          <a href="#blue" class="btn btn-primary btn-outline-default btn-lg a" data-toggle="collapse">藍色</a>
+          <a href="#red" class="btn btn-danger btn-outline-default btn-lg a" data-toggle="collapse">紅色</a>
+          <a href="#default" class="btn btn-outline-dark btn-lg a" data-toggle="collapse">預設</a>
+          <a href="#chart" class="btn btn-success btn-outline-default btn-lg a" data-toggle="collapse">圖表</a>
+
+          <div class="collapse" id="red">
+            <div class="card card-body">
+              <img src="/file/red.png" width="1000px" height="516px">
+            </div>
+          </div>
+
+          <div class="collapse" id="blue">
+            <div class="card card-body">
+              <img src="/file/blue.png" width="1000px" height="516px">
+            </div>
+          </div>
+
+
+          <div class="collapse" id="default">
+            <div class="card card-body">
+              <img src="/file/default.png" width="1000px" height="516px">
+            </div>
+          </div>
+
+          <div class="collapse" id="chart">
+            <div class="card card-body">
+              <img src="/file/圖表.png" width="1000px" height="516px">
+            </div>
+          </div>
+
+          <p>&nbsp;</p>
+          <p style="color:gray">*名字與成績皆為亂數產生，如有雷同純屬巧合</p>
+        </div>
+
+          </div>
+      </div>
+      </div>
+  </body>
+</html>
